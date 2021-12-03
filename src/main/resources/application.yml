@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: Customersdb
+      host: localhost
+      port: 27017
+
+server:
+  port: 9292
+
+management:
+   security:
+      enabled: false
